@@ -1,7 +1,4 @@
-import PropTypes from 'prop-types';
-
 export const Statistics = ({
-  text,
   good,
   neutral,
   bad,
@@ -10,7 +7,6 @@ export const Statistics = ({
 }) => {
   return (
     <div>
-      <h2>{text}</h2>
       <ul>
         <li>
           <p>Good {good}</p>
