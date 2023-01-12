@@ -1,7 +1,8 @@
+import { Button } from './FeedbackOptionsstyled';
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return options.map(option => {
     return (
-      <button
+      <Button
         type="button"
         key={[option]}
         onClick={() => {
@@ -9,7 +10,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         }}
       >
         {option[0].toUpperCase() + option.slice(1, option.length)}
-      </button>
+      </Button>
     );
   });
 };
