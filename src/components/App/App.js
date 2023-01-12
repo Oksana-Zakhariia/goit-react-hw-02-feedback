@@ -4,7 +4,6 @@ import { Statistics } from 'components/Statistics/Statistics';
 import { Section } from 'components/Section/Section';
 import { Notification } from 'components/Notification/Notification';
 import React from 'react';
-import PropTypes from 'prop-types';
 
 export class App extends React.Component {
   static defaultProps = {
