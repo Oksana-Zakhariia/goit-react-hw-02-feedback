@@ -16,3 +16,10 @@ code {
 ul {
   list-style: none;
 }
+li {
+  margin: 0;
+  background-color: rgb(243, 212, 175);
+}
+p {
+  margin: 0;
+}
