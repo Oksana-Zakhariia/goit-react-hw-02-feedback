@@ -36,7 +36,7 @@ export class App extends React.Component {
       <AppContainer>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={this.props.options}
+            options={Object.keys(this.state)}
             onLeaveFeedback={this.handleFeedback}
           ></FeedbackOptions>
         </Section>
