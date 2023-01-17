@@ -6,7 +6,7 @@ export const AppContainer = styled.div`
   font-size: 18px;
   color: #010101;
   margin-right: auto;
-  width: 600px;
+  width: 400px;
   margin-right: auto;
   margin-left: auto;
 `;
